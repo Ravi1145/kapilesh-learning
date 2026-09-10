@@ -1,4 +1,5 @@
 {
+  "buildCommand": "npm run build --prefix client",
   "builds": [
     {
       "src": "client/package.json",
@@ -6,7 +7,7 @@
       "config": { "distDir": "dist" }
     }
   ],
-  "routes": [
-    { "src": "^/(.*)$", "dest": "/index.html" }
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
