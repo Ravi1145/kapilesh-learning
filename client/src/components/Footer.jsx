@@ -10,7 +10,7 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <p className="font-serif text-2xl tracking-tight">
-              Kapilesh <span className="text-gold">Learning</span>
+              Kapilesh <span className="text-gold">Learning Solutions</span>
             </p>
             <p className="mt-5 max-w-xs text-sm leading-relaxed text-white/50">
               Leadership.

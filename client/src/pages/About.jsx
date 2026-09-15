@@ -59,7 +59,7 @@ export default function About() {
               <div className="img-frame relative overflow-hidden border border-line">
                 <img
                   src={frontImage}
-                  alt="Kapilesh, founder of Kapilesh Learning"
+                  alt="Kapilesh, founder of Kapilesh Learning Solutions"
                   loading="lazy"
                   className="aspect-[4/5] w-full object-cover object-[48%_15%] transition-transform duration-[2500ms] ease-out hover:scale-[1.04]"
                 />

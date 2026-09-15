@@ -44,12 +44,12 @@ export default function Navbar() {
         <Link
           to="/"
           className="group flex items-baseline gap-2"
-          aria-label="Kapilesh Learning — home"
+          aria-label="Kapilesh Learning Solutions — home"
         >
           <span className="font-serif text-xl font-semibold tracking-tight text-white sm:text-2xl">
             Kapilesh
           </span>
-          <span className="eyebrow text-gold">Learning</span>
+          <span className="eyebrow text-gold">Learning Solutions</span>
         </Link>
 
         {/* Desktop navigation */}

@@ -2,7 +2,7 @@
   "name": "kapilesh-learning-server",
   "version": "1.0.0",
   "private": true,
-  "description": "Express REST API for Kapilesh Learning — enquiry handling with optional MongoDB persistence.",
+  "description": "Express REST API for Kapilesh Learning Solutions — enquiry handling with optional MongoDB persistence.",
   "type": "module",
   "main": "server.js",
   "scripts": {

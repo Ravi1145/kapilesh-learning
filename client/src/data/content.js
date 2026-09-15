@@ -1,11 +1,11 @@
 /**
- * Kapilesh Learning — single source of truth for all site content.
- * Factual claims are preserved from the original Kapilesh Learning website.
+ * Kapilesh Learning Solutions — single source of truth for all site content.
+ * Factual claims are preserved from the original Kapilesh Learning Solutions website.
  * Edit copy here; components read from this file.
  */
 
 export const brand = {
-  name: "Kapilesh Learning",
+  name: "Kapilesh Learning Solutions",
   tagline: "Leadership. Capability. Transformation.",
   positioning:
     "Premium learning, leadership & organisational capability consulting.",
@@ -46,7 +46,7 @@ export const philosophy = {
     "Learning is valuable only when it changes the way people think, decide and act.",
   quoteAttribution: "Kapilesh",
   body: [
-    "Kapilesh Learning brings together two worlds that are often disconnected: commercial reality and people development. The practice is built on a career spanning Learning & Development, leadership development, sales leadership, talent management and organisational transformation.",
+    "Kapilesh Learning Solutions brings together two worlds that are often disconnected: commercial reality and people development. The practice is built on a career spanning Learning & Development, leadership development, sales leadership, talent management and organisational transformation.",
     "Before moving into senior L&D leadership, Kapilesh built his career in sales management with organisations including GlaxoSmithKline, Wockhardt and Dumex India. That commercial grounding continues to shape the approach: learning must be relevant to the business, practical for the learner and visible in performance.",
     "The focus is simple — move beyond training events and build capability that improves leadership, behaviour, performance and business outcomes.",
   ],

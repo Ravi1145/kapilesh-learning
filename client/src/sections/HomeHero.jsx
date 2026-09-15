@@ -49,7 +49,7 @@ export default function HomeHero() {
             variants={fadeUp}
             className="mt-9 max-w-xl text-[17px] leading-relaxed text-white/60"
           >
-            Kapilesh Learning helps organisations build leadership capability,
+            Kapilesh Learning Solutions helps organisations build leadership capability,
             strengthen learning systems and translate people development into
             business performance.
           </motion.p>
@@ -74,7 +74,7 @@ export default function HomeHero() {
           className="relative mx-auto w-full max-w-[420px] lg:mx-0 lg:ml-auto"
         >
           <p className="eyebrow mb-4 text-right !text-[10px] text-white/40">
-            Kapilesh — Founder, Kapilesh Learning
+            Kapilesh — Founder, Kapilesh Learning Solutions
           </p>
           <div className="relative aspect-[4/5]">
             {/* Offset gold frame + glow */}
@@ -98,7 +98,7 @@ export default function HomeHero() {
             >
               <img
                 src={portrait}
-                alt="Kapilesh — founder of Kapilesh Learning"
+                alt="Kapilesh — founder of Kapilesh Learning Solutions"
                 className="h-full w-full object-cover object-[68%_12%] transition-transform duration-[2500ms] ease-out hover:scale-[1.04]"
                 fetchpriority="high"
               />

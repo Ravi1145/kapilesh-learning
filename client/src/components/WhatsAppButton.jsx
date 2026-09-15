@@ -13,7 +13,7 @@ export default function WhatsAppButton() {
       href={url}
       target="_blank"
       rel="noopener noreferrer"
-      aria-label="Chat with Kapilesh Learning on WhatsApp"
+      aria-label="Chat with Kapilesh Learning Solutions on WhatsApp"
       className="fixed bottom-6 right-6 z-40 flex h-14 w-14 items-center justify-center rounded-full bg-[#25D366] shadow-lg shadow-black/25 transition-transform duration-300 hover:scale-105 focus-visible:scale-105"
     >
       <svg

@@ -154,7 +154,7 @@ export default function Contact() {
     <>
       <Seo
         title="Contact"
-        description="Start a conversation about your organisation's capability challenge. Reach Kapilesh Learning by enquiry form, phone, email or LinkedIn."
+        description="Start a conversation about your organisation's capability challenge. Reach Kapilesh Learning Solutions by enquiry form, phone, email or LinkedIn."
         path="/contact"
         jsonLd={jsonLd}
       />
@@ -196,7 +196,7 @@ export default function Contact() {
                   label: "Email",
                   value: contact.email,
                   href: `mailto:${contact.email}?subject=${encodeURIComponent(
-                    "Consulting Enquiry — Kapilesh Learning"
+                    "Consulting Enquiry — Kapilesh Learning Solutions"
                   )}`,
                 },
                 {
@@ -216,7 +216,7 @@ export default function Contact() {
                 {
                   icon: Youtube,
                   label: "YouTube",
-                  value: "Kapilesh Learning",
+                  value: "Kapilesh Learning Solutions",
                   href: contact.youtube,
                   external: true,
                 },

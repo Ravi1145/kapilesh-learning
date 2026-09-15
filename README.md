@@ -1,4 +1,4 @@
-# Kapilesh Learning
+# Kapilesh Learning Solutions
 
 Premium leadership, capability & organisational transformation consulting website.
 

@@ -10,7 +10,7 @@ export default function Programs() {
         <SectionHeading
           eyebrow="Signature Programs"
           title={["Learning experiences", "designed to challenge thinking."]}
-          intro="Alongside customised consulting interventions, Kapilesh Learning offers practical leadership, behavioural and future-skills programs."
+          intro="Alongside customised consulting interventions, Kapilesh Learning Solutions offers practical leadership, behavioural and future-skills programs."
           tone="light"
         />
 

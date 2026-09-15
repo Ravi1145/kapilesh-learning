@@ -47,6 +47,6 @@ app.use(errorHandler);
 // even when MONGO_URI is not configured.
 connectDB().finally(() => {
   app.listen(PORT, () => {
-    console.log(`Kapilesh Learning API listening on http://localhost:${PORT}`);
+    console.log(`Kapilesh Learning Solutions API listening on http://localhost:${PORT}`);
   });
 });
