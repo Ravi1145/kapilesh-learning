@@ -1,5 +1,7 @@
 import { brand, contact } from "../data/content";
 
+const sameAs = [contact.linkedin, contact.instagram, contact.youtube];
+
 export const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
@@ -8,7 +10,7 @@ export const organizationSchema = {
   slogan: brand.tagline,
   email: contact.email,
   telephone: contact.phoneDisplay,
-  sameAs: [contact.linkedin],
+  sameAs,
 };
 
 export const personSchema = {
@@ -18,7 +20,7 @@ export const personSchema = {
   jobTitle: "Learning & Development and Organisational Capability Consultant",
   worksFor: { "@type": "Organization", name: brand.name },
   url: `${brand.siteUrl}/about`,
-  sameAs: [contact.linkedin],
+  sameAs,
 };
 
 export const professionalServiceSchema = {

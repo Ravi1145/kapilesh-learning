@@ -1,7 +1,7 @@
 import { motion, useReducedMotion } from "framer-motion";
 import Button from "../components/Button";
 import { fadeUp, fade, stagger } from "../lib/motion";
-import portrait from "../assets/kapilesh-portrait.jpg";
+import portrait from "../assets/kapilesh-cutout.jpg";
 
 export default function HomeHero() {
   const reduceMotion = useReducedMotion();
@@ -96,7 +96,7 @@ export default function HomeHero() {
               <img
                 src={portrait}
                 alt="Kapilesh — founder of Kapilesh Learning"
-                className="h-full w-full object-cover object-[38%_18%] transition-transform duration-[2500ms] ease-out hover:scale-[1.04]"
+                className="h-full w-full object-cover object-[68%_12%] transition-transform duration-[2500ms] ease-out hover:scale-[1.04]"
                 fetchpriority="high"
               />
               <p className="eyebrow absolute bottom-5 left-6 z-10 !text-[10px] text-white/80">

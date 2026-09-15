@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { brand } from "../data/content";
+import defaultOgImage from "../assets/kapilesh-brand-card.jpg";
 
 /**
  * Lightweight per-page SEO manager for an SPA:
@@ -25,10 +26,17 @@ function upsertCanonical(href) {
   el.setAttribute("href", href);
 }
 
-export default function Seo({ title, description, path = "/", jsonLd }) {
+export default function Seo({
+  title,
+  description,
+  path = "/",
+  jsonLd,
+  image = defaultOgImage,
+}) {
   useEffect(() => {
     const fullTitle = `${title} | ${brand.name}`;
     const url = `${brand.siteUrl}${path === "/" ? "/" : path}`;
+    const imageUrl = `${brand.siteUrl}${image}`;
 
     document.title = fullTitle;
     upsertMeta("name", "description", description);
@@ -37,7 +45,9 @@ export default function Seo({ title, description, path = "/", jsonLd }) {
     upsertMeta("property", "og:type", "website");
     upsertMeta("property", "og:url", url);
     upsertMeta("property", "og:site_name", brand.name);
-    upsertMeta("name", "twitter:card", "summary");
+    upsertMeta("property", "og:image", imageUrl);
+    upsertMeta("name", "twitter:card", "summary_large_image");
+    upsertMeta("name", "twitter:image", imageUrl);
     upsertCanonical(url);
 
     // JSON-LD structured data
@@ -54,7 +64,7 @@ export default function Seo({ title, description, path = "/", jsonLd }) {
     return () => {
       document.getElementById(scriptId)?.remove();
     };
-  }, [title, description, path, jsonLd]);
+  }, [title, description, path, jsonLd, image]);
 
   return null;
 }

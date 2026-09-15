@@ -12,6 +12,7 @@ import Process from "../sections/Process";
 import ExperiencePreview from "../sections/ExperiencePreview";
 import Programs from "../sections/Programs";
 import Industries from "../sections/Industries";
+import BrandPromise from "../sections/BrandPromise";
 import FinalCTA from "../sections/FinalCTA";
 
 const jsonLd = {
@@ -37,6 +38,7 @@ export default function Home() {
       <ExperiencePreview />
       <Programs />
       <Industries />
+      <BrandPromise />
       <FinalCTA />
     </>
   );

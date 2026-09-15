@@ -16,8 +16,11 @@ export const brand = {
 export const contact = {
   phoneDisplay: "+91 93500 40594",
   phoneRaw: "919350040594",
-  email: "kapilesh70@gmail.com",
+  email: "kapilesh@kapileshlearning.com",
   linkedin: "https://www.linkedin.com/in/kapileshthemotivator",
+  instagram: "https://www.instagram.com/kapsicome/",
+  instagramHandle: "@kapsicome",
+  youtube: "https://tr.ee/o0vSm5qodo",
   whatsappMessage:
     "Hello Kapilesh, I would like to discuss a capability-building engagement.",
 };

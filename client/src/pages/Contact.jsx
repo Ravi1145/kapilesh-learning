@@ -2,6 +2,8 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import {
   Linkedin,
+  Instagram,
+  Youtube,
   Mail,
   Phone,
   Loader2,
@@ -202,6 +204,20 @@ export default function Contact() {
                   label: "LinkedIn",
                   value: "kapileshthemotivator",
                   href: contact.linkedin,
+                  external: true,
+                },
+                {
+                  icon: Instagram,
+                  label: "Instagram",
+                  value: contact.instagramHandle,
+                  href: contact.instagram,
+                  external: true,
+                },
+                {
+                  icon: Youtube,
+                  label: "YouTube",
+                  value: "Kapilesh Learning",
+                  href: contact.youtube,
                   external: true,
                 },
               ].map((channel) => (

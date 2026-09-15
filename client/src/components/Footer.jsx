@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Linkedin, Mail, Phone } from "lucide-react";
+import { Linkedin, Instagram, Youtube, Mail, Phone } from "lucide-react";
 import { brand, contact, navigation, services } from "../data/content";
 
 export default function Footer() {
@@ -86,6 +86,28 @@ export default function Footer() {
                 >
                   <Linkedin size={15} aria-hidden="true" />
                   LinkedIn
+                </a>
+              </li>
+              <li>
+                <a
+                  href={contact.instagram}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-3 text-sm text-white/60 transition-colors hover:text-white"
+                >
+                  <Instagram size={15} aria-hidden="true" />
+                  Instagram
+                </a>
+              </li>
+              <li>
+                <a
+                  href={contact.youtube}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-3 text-sm text-white/60 transition-colors hover:text-white"
+                >
+                  <Youtube size={15} aria-hidden="true" />
+                  YouTube
                 </a>
               </li>
             </ul>
