@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import SectionHeading from "../components/SectionHeading";
 import { philosophy } from "../data/content";
 import { fadeUp, stagger, viewport } from "../lib/motion";
-import profileImage from "../assets/kapilesh-profile.jpg";
+import profileImage from "../assets/kapilesh-brand-card.jpg";
 
 export default function Philosophy() {
   return (
@@ -44,9 +44,9 @@ export default function Philosophy() {
             >
               <img
                 src={profileImage}
-                alt="Kapilesh in a reflective moment"
+                alt="Kapilesh Learning Solutions — Kapilesh speaking"
                 loading="lazy"
-                className="aspect-[3/2] w-full object-cover object-[45%_25%] transition-transform duration-[2500ms] ease-out hover:scale-[1.04]"
+                className="aspect-video w-full object-cover object-center transition-transform duration-[2500ms] ease-out hover:scale-[1.04]"
               />
             </motion.div>
             <motion.blockquote

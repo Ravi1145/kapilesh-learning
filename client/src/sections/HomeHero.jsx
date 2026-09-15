@@ -73,6 +73,9 @@ export default function HomeHero() {
           animate="visible"
           className="relative mx-auto w-full max-w-[420px] lg:mx-0 lg:ml-auto"
         >
+          <p className="eyebrow mb-4 text-right !text-[10px] text-white/40">
+            Kapilesh — Founder, Kapilesh Learning
+          </p>
           <div className="relative aspect-[4/5]">
             {/* Offset gold frame + glow */}
             <div
@@ -99,9 +102,6 @@ export default function HomeHero() {
                 className="h-full w-full object-cover object-[68%_12%] transition-transform duration-[2500ms] ease-out hover:scale-[1.04]"
                 fetchpriority="high"
               />
-              <p className="eyebrow absolute bottom-5 left-6 z-10 !text-[10px] text-white/80">
-                Kapilesh — Founder, Kapilesh Learning
-              </p>
             </motion.div>
 
             {/* Floating data cards */}
