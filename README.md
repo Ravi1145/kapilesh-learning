@@ -103,7 +103,7 @@ Responses: `201` `{ "success": true, "message": "Your enquiry has been received.
 npm run build
 ```
 
-Builds the frontend to `client/dist/`. Serve it from any static host (Netlify, Vercel, nginx) and deploy `server/` to a Node host (Render, Railway, a VPS with pm2). Set `CORS_ORIGIN` to the deployed frontend URL and `VITE_API_URL` (client env) to the deployed API URL. Because the app uses client-side routing, configure the static host to rewrite all paths to `index.html`.
+Builds the frontend to `client/dist/`. Deploy it to Netlify and deploy `server/` to a Node host (Render, Railway, a VPS with pm2). Set `CORS_ORIGIN` to the deployed frontend URL and `VITE_API_URL` (client env) to the deployed API URL. The included `netlify.toml` handles the client-side routing fallback to `index.html`.
 
 Run the API in production:
 
