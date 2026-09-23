@@ -9,6 +9,7 @@ export default function NotFound() {
         title="Page Not Found"
         description="The page you're looking for doesn't exist."
         path="/404"
+        noindex
       />
       <PageHero
         eyebrow="404"

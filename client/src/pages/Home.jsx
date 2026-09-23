@@ -2,7 +2,9 @@ import Seo from "../lib/Seo";
 import {
   organizationSchema,
   professionalServiceSchema,
+  faqSchema,
 } from "../lib/schema";
+import { faqs } from "../data/content";
 import HomeHero from "../sections/HomeHero";
 import TrustSection from "../sections/TrustSection";
 import OrganisationsMarquee from "../sections/OrganisationsMarquee";
@@ -13,11 +15,12 @@ import ExperiencePreview from "../sections/ExperiencePreview";
 import Programs from "../sections/Programs";
 import Industries from "../sections/Industries";
 import BrandPromise from "../sections/BrandPromise";
+import FAQSection from "../sections/FAQSection";
 import FinalCTA from "../sections/FinalCTA";
 
 const jsonLd = {
   "@context": "https://schema.org",
-  "@graph": [organizationSchema, professionalServiceSchema],
+  "@graph": [organizationSchema, professionalServiceSchema, faqSchema(faqs)],
 };
 
 export default function Home() {
@@ -39,6 +42,7 @@ export default function Home() {
       <Programs />
       <Industries />
       <BrandPromise />
+      <FAQSection />
       <FinalCTA />
     </>
   );

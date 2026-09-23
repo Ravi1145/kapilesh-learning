@@ -333,6 +333,44 @@ export const credentials = [
   "Certified PoSH Trainer — TÜV SÜD",
 ];
 
+export const faqs = [
+  {
+    question: "What does Kapilesh Learning Solutions do?",
+    answer:
+      "Kapilesh Learning Solutions is a premium leadership, capability and organisational transformation consulting practice founded by Kapilesh, who brings 34+ years of experience across sales leadership, Learning & Development and organisational capability building. The practice has trained and developed more than 20,000 professionals across industries — moving beyond training events to build capability that improves leadership, behaviour, performance and business outcomes.",
+  },
+  {
+    question: "What is the difference between training and capability building?",
+    answer:
+      "Training is an event; capability is a journey. A single workshop can transfer information, but capability building combines structured learning, coaching, real work application and honest feedback over time — so that learning changes the way people actually think, decide and act, not just what they know.",
+  },
+  {
+    question: "What consulting solutions does Kapilesh Learning Solutions offer?",
+    answer:
+      "Six areas of practice: L&D Strategy & Governance, Leadership Development, Organisational Transformation, Sales Excellence, Trainer & Facilitator Development, and AI-Enabled Learning. Each engagement starts with the business context and the capability gap, not a fixed course catalogue.",
+  },
+  {
+    question: "What does a typical engagement look like?",
+    answer:
+      "Every engagement follows a four-stage approach: Discover (understand the business context and capability gap), Design (architect the right mix of learning, practice, coaching and reinforcement), Develop (build and deliver experiences that change behaviour) and Transform (embed the change into systems and everyday work so capability compounds after the engagement ends).",
+  },
+  {
+    question: "Which industries has Kapilesh Learning Solutions worked with?",
+    answer:
+      "Cross-industry experience spanning FMCG, healthcare, manufacturing, retail, banking, telecom, power, government, education and automobile — grounded in a career that moved from frontline sales leadership to enterprise-wide L&D leadership at organisations including GlaxoSmithKline, Wockhardt, Dumex India, Hero Group and RSPL Group.",
+  },
+  {
+    question: "Does Kapilesh Learning Solutions offer coaching and mentoring?",
+    answer:
+      "Yes — coaching, mentoring and facilitation is a core area of expertise. Within Leadership Development engagements specifically, mentoring is combined with structured learning, real work application and honest feedback over time, so leaders build judgement and ownership rather than just complete a course.",
+  },
+  {
+    question: "How can I start a conversation with Kapilesh Learning Solutions?",
+    answer:
+      "Use the enquiry form on the Contact page, or reach out directly by phone, email, WhatsApp or LinkedIn. Every conversation starts with the business context and the capability challenge, not a sales pitch.",
+  },
+];
+
 export const areasOfInterest = [
   "L&D Strategy & Governance",
   "Leadership Development",

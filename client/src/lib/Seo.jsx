@@ -32,6 +32,7 @@ export default function Seo({
   path = "/",
   jsonLd,
   image = defaultOgImage,
+  noindex = false,
 }) {
   useEffect(() => {
     const fullTitle = `${title} | ${brand.name}`;
@@ -40,6 +41,11 @@ export default function Seo({
 
     document.title = fullTitle;
     upsertMeta("name", "description", description);
+    upsertMeta(
+      "name",
+      "robots",
+      noindex ? "noindex, nofollow" : "index, follow"
+    );
     upsertMeta("property", "og:title", fullTitle);
     upsertMeta("property", "og:description", description);
     upsertMeta("property", "og:type", "website");
@@ -48,7 +54,7 @@ export default function Seo({
     upsertMeta("property", "og:image", imageUrl);
     upsertMeta("name", "twitter:card", "summary_large_image");
     upsertMeta("name", "twitter:image", imageUrl);
-    upsertCanonical(url);
+    if (!noindex) upsertCanonical(url);
 
     // JSON-LD structured data
     const scriptId = "page-jsonld";
@@ -64,7 +70,7 @@ export default function Seo({
     return () => {
       document.getElementById(scriptId)?.remove();
     };
-  }, [title, description, path, jsonLd, image]);
+  }, [title, description, path, jsonLd, image, noindex]);
 
   return null;
 }
