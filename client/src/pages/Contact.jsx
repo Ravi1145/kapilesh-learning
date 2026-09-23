@@ -6,6 +6,7 @@ import {
   Youtube,
   Mail,
   Phone,
+  MapPin,
   Loader2,
   CheckCircle2,
   AlertCircle,
@@ -154,7 +155,7 @@ export default function Contact() {
     <>
       <Seo
         title="Contact"
-        description="Start a conversation about your organisation's capability challenge. Reach Kapilesh Learning Solutions by enquiry form, phone, email or LinkedIn."
+        description="Start a conversation about your organisation's capability challenge. Reach Kapilesh Learning Solutions, based in Noida, India, by enquiry form, phone, email or LinkedIn."
         path="/contact"
         jsonLd={jsonLd}
       />
@@ -183,6 +184,13 @@ export default function Contact() {
             >
               Prefer to reach out directly?
             </motion.h2>
+            <motion.p
+              variants={fadeUp}
+              className="mt-4 inline-flex items-center gap-2 text-sm text-white/50"
+            >
+              <MapPin size={14} className="text-gold" aria-hidden="true" />
+              Based in {contact.locationDisplay}
+            </motion.p>
             <motion.ul variants={fadeUp} className="mt-10 list-none space-y-1">
               {[
                 {

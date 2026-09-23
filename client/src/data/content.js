@@ -21,6 +21,10 @@ export const contact = {
   instagram: "https://www.instagram.com/kapsicome/",
   instagramHandle: "@kapsicome",
   youtube: "https://tr.ee/o0vSm5qodo",
+  city: "Noida",
+  region: "Uttar Pradesh",
+  country: "IN",
+  locationDisplay: "Noida, Uttar Pradesh, India",
   whatsappMessage:
     "Hello Kapilesh, I would like to discuss a capability-building engagement.",
 };
@@ -349,6 +353,10 @@ export const serviceKeywords = [
   "Capability Building Consultant",
   "Leadership Mentor India",
   "Organisational Capability Diagnostics",
+  "L&D Consultant Noida",
+  "Corporate Training Consultant Noida",
+  "Leadership Development Consultant Noida",
+  "Leadership Mentor Noida",
 ];
 
 export const faqs = [
@@ -393,6 +401,11 @@ export const faqs = [
       "Does Kapilesh Learning Solutions carry out organisational capability diagnostics, such as SWOT analysis?",
     answer:
       "Every engagement begins with the Discover phase — understanding the business context, the capability gap and the change that needs to happen. That diagnostic work draws on standard organisational analysis frameworks, including SWOT-style thinking (strengths, weaknesses, opportunities and threats), to make sure the intervention that follows is grounded in business reality rather than a generic course catalogue.",
+  },
+  {
+    question: "Where is Kapilesh Learning Solutions based?",
+    answer:
+      "Kapilesh Learning Solutions is based in Noida, Uttar Pradesh, India, and works with organisations across India — with a career built on enterprise-wide engagements at companies including GlaxoSmithKline, Wockhardt, Hero Group and RSPL Group.",
   },
   {
     question: "How can I start a conversation with Kapilesh Learning Solutions?",

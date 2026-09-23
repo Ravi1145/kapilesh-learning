@@ -16,6 +16,13 @@ const founder = {
   name: "Kapilesh",
 };
 
+const address = {
+  "@type": "PostalAddress",
+  addressLocality: contact.city,
+  addressRegion: contact.region,
+  addressCountry: contact.country,
+};
+
 export const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
@@ -26,6 +33,7 @@ export const organizationSchema = {
   email: contact.email,
   telephone: contact.phoneDisplay,
   logo: `${brand.siteUrl}${brandLogo}`,
+  address,
   keywords,
   founder,
   sameAs,
@@ -65,6 +73,7 @@ export const professionalServiceSchema = {
   url: brand.siteUrl,
   email: contact.email,
   telephone: contact.phoneDisplay,
+  address,
   areaServed: "IN",
   keywords,
   founder,
