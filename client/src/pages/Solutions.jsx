@@ -133,7 +133,7 @@ export default function Solutions() {
     <>
       <Seo
         title="Consulting Solutions"
-        description="Six consulting solutions: L&D Strategy & Governance, Leadership Development, Organisational Transformation, Sales Excellence, Trainer & Facilitator Development and AI-Enabled Learning."
+        description="Learning strategy consultant and capability building consultant services: L&D Strategy & Governance, Leadership Development, Organisational Transformation, Sales Excellence, Trainer & Facilitator Development and AI-Enabled Learning."
         path="/solutions"
         jsonLd={jsonLd}
       />

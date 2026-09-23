@@ -1,8 +1,15 @@
-import { brand, contact, services, expertise } from "../data/content";
+import {
+  brand,
+  contact,
+  services,
+  expertise,
+  serviceKeywords,
+} from "../data/content";
 import personPhoto from "../assets/kapilesh-cutout.jpg";
 import brandLogo from "../assets/kapilesh-brand-card.jpg";
 
 const sameAs = [contact.linkedin, contact.instagram, contact.youtube];
+const keywords = serviceKeywords.join(", ");
 
 const founder = {
   "@type": "Person",
@@ -19,6 +26,7 @@ export const organizationSchema = {
   email: contact.email,
   telephone: contact.phoneDisplay,
   logo: `${brand.siteUrl}${brandLogo}`,
+  keywords,
   founder,
   sameAs,
 };
@@ -31,7 +39,7 @@ export const personSchema = {
   worksFor: { "@type": "Organization", name: brand.name },
   url: `${brand.siteUrl}/about`,
   image: `${brand.siteUrl}${personPhoto}`,
-  knowsAbout: expertise,
+  knowsAbout: [...expertise, ...serviceKeywords],
   sameAs,
 };
 
@@ -58,6 +66,7 @@ export const professionalServiceSchema = {
   email: contact.email,
   telephone: contact.phoneDisplay,
   areaServed: "IN",
+  keywords,
   founder,
   hasOfferCatalog: offerCatalog,
 };

@@ -28,7 +28,7 @@ export default function Home() {
     <>
       <Seo
         title="Leadership, Capability & Organisational Transformation"
-        description="Kapilesh Learning Solutions helps organisations build leadership capability, strengthen learning systems and translate people development into business performance. 34+ years of experience, 20,000+ professionals developed."
+        description="Kapilesh Learning Solutions is a Learning and Development (L&D) consultant and corporate training solutions practice in India, helping organisations build leadership capability, strengthen learning systems and translate people development into business performance. 34+ years of experience, 20,000+ professionals developed."
         path="/"
         jsonLd={jsonLd}
       />

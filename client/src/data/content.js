@@ -8,7 +8,7 @@ export const brand = {
   name: "Kapilesh Learning Solutions",
   tagline: "Leadership. Capability. Transformation.",
   positioning:
-    "Premium learning, leadership & organisational capability consulting.",
+    "A Learning & Development (L&D) consultant and organisational capability consulting practice based in India, offering corporate training solutions, learning strategy, learning architecture, leadership development consulting and capability building for enterprises.",
   coreIdea: "Building people who can build better organisations.",
   siteUrl: "https://www.kapileshlearning.com",
 };
@@ -333,6 +333,24 @@ export const credentials = [
   "Certified PoSH Trainer — TÜV SÜD",
 ];
 
+export const serviceKeywords = [
+  "Learning and Development Consultant",
+  "L&D Consultant",
+  "L&D Consultant India",
+  "Corporate Learning Solutions",
+  "Corporate Learning and Development",
+  "Learning Solutions for Corporates",
+  "Corporate Training Solutions",
+  "Corporate Training Consultant India",
+  "L&D Consulting Services",
+  "Learning Strategy Consultant",
+  "Learning Architecture Consultant",
+  "Leadership Development Consultant",
+  "Capability Building Consultant",
+  "Leadership Mentor India",
+  "Organisational Capability Diagnostics",
+];
+
 export const faqs = [
   {
     question: "What does Kapilesh Learning Solutions do?",
@@ -362,7 +380,19 @@ export const faqs = [
   {
     question: "Does Kapilesh Learning Solutions offer coaching and mentoring?",
     answer:
-      "Yes — coaching, mentoring and facilitation is a core area of expertise. Within Leadership Development engagements specifically, mentoring is combined with structured learning, real work application and honest feedback over time, so leaders build judgement and ownership rather than just complete a course.",
+      "Yes — coaching, mentoring and facilitation is a core area of expertise. Within Leadership Development engagements specifically, mentoring is combined with structured learning, real work application and honest feedback over time, so leaders build judgement and ownership rather than just complete a course. As an India-based practice with 34+ years of cross-industry experience, Kapilesh works as a leadership mentor for professionals and organisations across the country.",
+  },
+  {
+    question:
+      "Is Kapilesh Learning Solutions a Learning and Development (L&D) consultant?",
+    answer:
+      "Yes. Kapilesh Learning Solutions is a Learning & Development (L&D) consulting practice offering corporate training solutions, learning strategy, learning architecture, leadership development consulting and capability building for enterprises — built on a career spanning L&D leadership, sales leadership and organisational transformation.",
+  },
+  {
+    question:
+      "Does Kapilesh Learning Solutions carry out organisational capability diagnostics, such as SWOT analysis?",
+    answer:
+      "Every engagement begins with the Discover phase — understanding the business context, the capability gap and the change that needs to happen. That diagnostic work draws on standard organisational analysis frameworks, including SWOT-style thinking (strengths, weaknesses, opportunities and threats), to make sure the intervention that follows is grounded in business reality rather than a generic course catalogue.",
   },
   {
     question: "How can I start a conversation with Kapilesh Learning Solutions?",

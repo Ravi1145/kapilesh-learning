@@ -27,7 +27,7 @@ export default function About() {
     <>
       <Seo
         title="About Kapilesh"
-        description="Kapilesh is a Learning & Development and organisational capability leader with 34+ years of experience across leadership, sales, learning and transformation."
+        description="Kapilesh is a Learning & Development (L&D) consultant, organisational capability leader and leadership mentor in India, with 34+ years of experience across leadership, sales, learning and transformation."
         path="/about"
         jsonLd={jsonLd}
       />
